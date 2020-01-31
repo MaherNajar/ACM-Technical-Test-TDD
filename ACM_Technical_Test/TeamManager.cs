@@ -16,9 +16,16 @@ namespace ACM_Technical_Test
                 return new int[] { 0, 0 };
             }
 
-            var orderedTeams = Teams.OrderByDescending(x => x.TeamScore).ToList();
-            int maxScore = orderedTeams.First().TeamScore;
-            var bestTeams = orderedTeams.Where(x => x.TeamScore == maxScore).ToList();
+            var orderedQueueTeams = new Queue<ITeam>(Teams.OrderByDescending(x => x.TeamScore));
+
+            var maxScore = orderedQueueTeams.First().TeamScore;
+
+            var bestTeams = new List<ITeam>();
+
+            while (orderedQueueTeams.First().TeamScore == maxScore)
+            {
+                bestTeams.Add(orderedQueueTeams.Dequeue());
+            };
 
             return new int[] { maxScore, bestTeams.Count() };
         }

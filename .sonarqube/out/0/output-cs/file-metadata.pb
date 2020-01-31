@@ -1,0 +1,9 @@
+Y
+PC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\IPerson.csutf-8W
+NC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\ITeam.csutf-8X
+OC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\Person.csutf-8V
+MC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\Team.csutf-8]
+TC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\TeamManager.csutf-8a
+XC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\TeamManagerBase.csutf-8\
+QC:\Users\Maher\AppData\Local\Temp\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8ç
+ÅC:\Users\Maher\source\repos\ACM-Technical-Test-TDD\ACM_Technical_Test\obj\Debug\netstandard2.0\ACM_Technical_Test.AssemblyInfo.csutf-8

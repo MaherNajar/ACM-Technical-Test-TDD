@@ -1,6 +1,18 @@
 
-# Created by https://www.gitignore.io/api/visualstudio,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/sonarqube,visualstudio,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=sonarqube,visualstudio,visualstudiocode
+
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.scannerwork/
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
 
 ### VisualStudioCode ###
 .vscode/*
@@ -363,4 +375,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/sonarqube,visualstudio,visualstudiocode
