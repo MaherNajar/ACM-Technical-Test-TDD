@@ -20,14 +20,15 @@ namespace ACM_Technical_Test
 
             var maxScore = orderedQueueTeams.First().TeamScore;
 
-            var bestTeams = new List<ITeam>();
+            int bestTeamsCount = 0;
 
             while (orderedQueueTeams.First().TeamScore == maxScore)
             {
-                bestTeams.Add(orderedQueueTeams.Dequeue());
+                orderedQueueTeams.Dequeue();
+                bestTeamsCount++;
             };
 
-            return new int[] { maxScore, bestTeams.Count() };
+            return new int[] { maxScore, bestTeamsCount };
         }
 
         protected override IEnumerable<ITeam> CreateTeams()
