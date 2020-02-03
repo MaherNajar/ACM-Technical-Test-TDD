@@ -8,7 +8,7 @@ namespace ACM_Technical_Test
 
         protected IEnumerable<ITeam> Teams = null;
 
-        public TeamManagerBase(string[] data)
+        protected TeamManagerBase(string[] data)
         {
             _data = data;
             Teams = CreateTeams();

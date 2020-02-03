@@ -26,7 +26,7 @@ namespace ACM_Technical_Test
             {
                 orderedQueueTeams.Dequeue();
                 bestTeamsCount++;
-            };
+            }
 
             return new int[] { maxScore, bestTeamsCount };
         }
@@ -40,8 +40,8 @@ namespace ACM_Technical_Test
                 for (int j = i + 1; j < PersonsCount; j++)
                 {
                     yield return new Team(_data[i], _data[j]);
-                };
-            };
+                }
+            }
 
         }
     }

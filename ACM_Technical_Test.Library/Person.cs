@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ACM_Technical_Test
+﻿namespace ACM_Technical_Test
 {
 
     public class Person : IPerson
     {
-        public readonly string _knowledge = "";
+        public readonly string _knowledge;
 
         public Person(string knowledge)
         {

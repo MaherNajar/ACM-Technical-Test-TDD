@@ -1,11 +1,10 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.IO;
 using System.Linq;
 
 namespace ACM_Technical_Test.Console
 {
-    class Program
+    static class Program
     {
         static void Main()
         {
