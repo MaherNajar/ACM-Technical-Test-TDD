@@ -7,7 +7,7 @@ namespace ACM_Technical_Test.Console
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Test0();
             Test1();
@@ -142,8 +142,10 @@ namespace ACM_Technical_Test.Console
         }
 
         static string[] GetData(string fileName) {
-            return File.ReadAllLines($"./{fileName}.txt").Skip(1).ToArray();
-        }
 
+            string rootPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
+            string filePath = $"{rootPath}/{fileName}.txt";
+            return File.ReadAllLines(filePath).Skip(1).ToArray();
+        }
     }
 }
